@@ -1,0 +1,12 @@
+npm install -g typescript
+tsc --init
+npm start
+npm install request lodash
+npm install @types/lodash @types/request --save-dev
+
+
+--------
+The JSON object, available in all modern browsers, has two very useful methods to deal with JSON-formatted content:
+ parse and stringify. 
+ JSON.parse() takes a JSON string and transforms it into a JavaScript object. 
+ JSON.stringify() takes a JavaScript object and transforms it into a JSON string.

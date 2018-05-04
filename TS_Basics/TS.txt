@@ -1,0 +1,22 @@
+-----To compile TS file
+tsc <file-name>
+----primitive data types
+undefined and null have one valid value undefined and null itself
+-------functions
+number of arguments must be same as in definition of func
+-------implicit typing
+TS has a clue about data type of variable when not specified
+var a=10;
+a=true //error 
+
+-------union types
+var a:number | boolean; //can take only number or boolean 
+a=10;
+a=true;
+
+----------Decorators
+its a declaration that can be attached to a class declaration,method,accessor,property or parameter
+Decorators use @expression, where expression must evaluate to a function.
+
+------spread operator
+...
