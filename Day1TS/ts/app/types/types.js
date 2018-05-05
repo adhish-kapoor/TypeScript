@@ -1,0 +1,10 @@
+"use strict";
+var name1;
+var rollNo;
+var bool;
+var array;
+var obj;
+var objectArray;
+var a;
+var b;
+//# sourceMappingURL=types.js.map

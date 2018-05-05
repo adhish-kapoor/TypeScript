@@ -1,0 +1,32 @@
+
+Typings called type declarations,type definitions is used to fill details over implementation
+ && are a tool to install those files
+----steps to install
+npm init
+npm install typescript typings --save-dev
+tsc --init
+npm link typings
+typings install dt~core-js dt~node --global --save
+npm install concurrently lite-server
+npm run start
+
+------let input=document.querySelector() //
+------Excess property checking
+
+----Interfaces allows to define a structure and refer to it by name and no implementation
+
+----Decorator factory is a function returning expression that will be called by the Decorator at runtimes
+
+function color(value:string){ //Decorator factory
+    return function(target)   //Decorator
+}
+
+--A class Decorator is declared just before class declaration and adding metadata
+
+//TS day2
+-----Difference b/w class and prototype
+in classes new creates new object every time //class.ts
+in prototypes same array is used             //class.ts
+
+---spread operator //functions.ts 
+
